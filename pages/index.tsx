@@ -26,9 +26,10 @@ export default function Home() {
           <div className="px-3 py-1">My message</div>
         </div>
         <div className="mt-6">
-          <textarea className="w-full px-3 py-1 bg-transparent border border-white border-gray-400 rounded-lg focus:bg-white focus:outline-none focus:border-white transition-all duration-300 ease-in-out focus:shadow">
-            sup
-          </textarea>
+          <textarea
+            className="w-full px-3 py-1 bg-transparent border border-white border-gray-400 rounded-lg focus:bg-white focus:outline-none focus:border-white transition-colors duration-300 ease-in-out focus:shadow"
+            placeholder="Message"
+          />
           <div className="flex mt-3 overflow-auto">
             <div className="flex-shrink-0 px-3 py-2 bg-gray-500 border border-transparent rounded-md bg-opacity-25">
               <GrChatOption />
